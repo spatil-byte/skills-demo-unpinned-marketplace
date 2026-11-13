@@ -1,0 +1,34 @@
+{
+  "name": "unpinned-fixture",
+  "owner": {
+    "name": "Cloudsmith artifact-engine"
+  },
+  "plugins": [
+    {
+      "name": "alpha",
+      "source": {
+        "source": "git-subdir",
+        "url": "spatil-byte/skills-demo-unversioned-plugins",
+        "path": "plugins/alpha"
+      }
+    },
+    {
+      "name": "beta",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/spatil-byte/skills-demo-unversioned-plugins.git",
+        "path": "plugins/beta",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "gamma",
+      "source": {
+        "source": "git-subdir",
+        "url": "spatil-byte/skills-demo-unversioned-plugins",
+        "path": "plugins/gamma",
+        "sha": "854afd5d694cba0239e9763489b06e158c4317b5"
+      }
+    }
+  ]
+}
