@@ -10,7 +10,10 @@
         "source": "git-subdir",
         "url": "spatil-byte/skills-demo-unversioned-plugins",
         "path": "plugins/alpha"
-      }
+      },
+      "commands": [
+        "./commands/hello.md"
+      ]
     },
     {
       "name": "beta",
